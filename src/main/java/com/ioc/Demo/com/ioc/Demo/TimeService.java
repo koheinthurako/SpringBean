@@ -14,11 +14,14 @@ import org.springframework.context.annotation.Scope;
 // "prototype ကတော့ class တစ်ခုလုံးကို object ဆောက်ရင်ဆောက်သလို သီးခြား Address တွေနဲ့ပဲ အလုပ်လုပ်တယ်
 public class TimeService {
 	
-//	TimeFormat time = new Time();
+//	TimeFormat time24 = new Time24();
+//	TimeFormat time12 = new Time12();
 	
-//	Spring မှာ java တုန်းကလိုမရေးတော့ပဲ "@Autowired" နဲ့ရေးတယ် အရေးကြီးတယ် အောက်နဲ့အပေါ်နဲ့ရေးထားတာက အတူတူပဲ
+//	@Autowired အကြောင်းစမယ်
+//	Spring မှာ java တုန်းကလို object ဆောက်ရင် အပေါ်ကအတိုင်းမရေးတော့ပဲ "@Autowired" နဲ့ရေးတယ် အရေးကြီးတယ် အောက်နဲ့အပေါ်နဲ့ရေးထားတာက အတူတူပဲ
 //	@Autowired အသေးစိတ်စမယ် သူ့ကို Dependency Injection တွေလုပ်ရင်သုံးတယ်
-//	သူ့ကို class ထဲက field, method, constructor, parameter() => level တွေအားလုံးမှာထည့်သုံးလို့ရတယ် 
+//	သူ့ကို class field, method, constructor, parameter(), annotation => level တွေအားလုံးမှာထည့်သုံးလို့ရတယ်
+//	သူက DemoApplication ထဲက context ထဲမှာရှိပြီးသား object ဆောက်ချင်တဲ့ class တွေကို တကယ်လှမ်းချိတ်ဆက်ပြီးတော့ object ဆောက်ပေးတယ်
 //	အဓိကက Dependency Injection လုပ်ပေးတယ် သို့သော် object တစ်ခုထဲပဲရမယ် နှစ်ခုသုံးခုဖြစ်လာရင် "@Qualifier" ကိုထပ်သုံးရတယ်
 //	@Qualifier ကတော့ @Autowired ထဲရှိ objects တွေထဲက ကိုယ်ချိတ်ချင်တဲ့အသေးစိတ် object ကို ချိတ်ဆက်နိုင်တယ် 
 	

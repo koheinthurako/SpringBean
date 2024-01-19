@@ -2,9 +2,9 @@ package com.ioc.Demo.com.ioc.Demo;
 
 import org.springframework.context.annotation.Configuration;
 
-//	Spring မှာ Configuration keyword ထည့်မှ object ဆောက်ပေးနိုင်တယ်
+//	Spring မှာ Configuration keyword ထည့်မှ object ဆောက်ပေးနိုင်တယ် class level ဖြစ်လို့ class အပေါ်မှာပဲရေးပေးရတယ်
 //	တကယ်က Configuration က Component ကနေအမွေဆက်ခံထားတာဖြစ်တယ် တကယ် object ဆောက်ပေးတဲ့ function က component
-@Configuration
+@Configuration()
 public class Time24 implements TimeFormat {
 	
 	@Override
