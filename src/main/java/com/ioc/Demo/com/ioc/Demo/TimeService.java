@@ -35,6 +35,15 @@ public class TimeService {
 	@Qualifier("time24")
 	TimeFormat time2;
 	
+//	@Autowired
+//	ဒါက constructor level မှာ @Autowired ကိုသုံးထားတာ constructor ကနေ object ဆောက်လိုက်လို့
+//	ထည့်လိုက်တဲ့ input နဲ့ ကိုက်တဲ့ context ထဲက class ကို @Autowired က object ဆောက်ပေးသွားမယ်
+//	public TimeService(TimeFormat time) {
+//		this.time = time;
+//	}
+	
+//	@Autowired အကြောင်းပြီးရင် အပေါ်ဆုံးက @Scope ကိုသွားကြည့်
+	
 	public int getNum() {
 		return num;
 	}
